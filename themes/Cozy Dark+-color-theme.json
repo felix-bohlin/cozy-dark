@@ -198,7 +198,7 @@
     "terminalCursor.foreground": "#008b94",
     "textBlockQuote.background": "#b7c5d3",
     "textBlockQuote.border": "#b7c5d3",
-    "textCodeBlock.background": "#b7c5d3",
+    "textCodeBlock.background": "#B7C5D333",
     "textLink.activeForeground": "#718ca1",
     "textLink.foreground": "#718ca1",
     "textPreformat.foreground": "#718ca1",
