@@ -1,5 +1,5 @@
 {
-  "name": "cozy-dark-plus",
+  "name": "cozy-dark",
   "displayName": "Cozy Dark",
   "description": "A little cozier Dark+ theme",
   "author": "Felix Bohlin",
@@ -8,7 +8,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felix-bohlin/cozy-dark-plus.git"
+    "url": "https://github.com/felix-bohlin/cozy-dark.git"
   },
   "engines": {
     "vscode": "^1.69.0"
@@ -26,9 +26,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Cozy Dark+",
+        "label": "Cozy Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Cozy Dark+-color-theme.json"
+        "path": "./themes/Cozy Dark-color-theme.json"
       }
     ]
   }
