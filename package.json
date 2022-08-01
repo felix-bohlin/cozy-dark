@@ -2,10 +2,22 @@
   "name": "cozy-dark-plus",
   "displayName": "Cozy Dark+",
   "description": "A little cozier Dark+ theme",
+  "author": "Felix Bohlin",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felix-bohlin/cozy-dark-plus.git"
+  },
   "engines": {
     "vscode": "^1.69.0"
   },
+  "keywords": [
+    "Dark+",
+    "cozy",
+    "dark",
+    "modern",
+    "city lights"
+  ],
   "categories": [
     "Themes"
   ],
