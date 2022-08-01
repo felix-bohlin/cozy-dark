@@ -1,0 +1,21 @@
+{
+  "name": "cozy-dark-plus",
+  "displayName": "Cozy Dark+",
+  "description": "A little cozier Dark+ theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cozy Dark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cozy Dark+-color-theme.json"
+      }
+    ]
+  }
+}
