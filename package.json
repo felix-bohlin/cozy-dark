@@ -5,6 +5,7 @@
   "author": "Felix Bohlin",
   "publisher": "FelixBohlin",
   "version": "0.0.1",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/felix-bohlin/cozy-dark-plus.git"
