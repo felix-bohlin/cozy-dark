@@ -1,11 +1,12 @@
 {
   "name": "cozy-dark-plus",
   "displayName": "Cozy Dark",
-  "description": "A little cozier Dark+ theme",
+  "description": "A little cozier dark theme",
   "author": "Felix Bohlin",
   "publisher": "FelixBohlin",
   "version": "0.8.0",
   "icon": "icon.png",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/felix-bohlin/cozy-dark.git"
@@ -18,7 +19,8 @@
     "cozy",
     "dark",
     "modern",
-    "city lights"
+    "city lights",
+    "theme"
   ],
   "categories": [
     "Themes"
@@ -28,8 +30,21 @@
       {
         "label": "Cozy Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Cozy Dark-color-theme.json"
+        "path": "./themes/cozy-dark.json"
       }
     ]
+  },
+  "scripts": {
+    "dev": "nodemon --watch src src/index.js",
+    "build": "node src/index.js",
+    "package": "npm run build && vsce package",
+    "publish:patch": "vsce publish patch",
+    "publish": "vsce publish minor",
+    "publish:major": "vsce publish major"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "vsce": "^2.10.0"
   }
 }
