@@ -642,7 +642,7 @@ export const cozyDark = {
     {
       scope: ["meta.embedded", "source.groovy.embedded"],
       settings: {
-        foreground: palette.alto,
+        foreground: palette.ecruWhite,
       },
     },
     {
@@ -670,7 +670,7 @@ export const cozyDark = {
       },
     },
     {
-      scope: "constant.language",
+      scope: ["constant.language", "storage.type.function.arrow"],
       settings: {
         foreground: palette.havelockBlue,
       },
@@ -705,9 +705,9 @@ export const cozyDark = {
       },
     },
     {
-      scope: "entity.other.attribute-name",
+      scope: ["meta.object-literal.key", "entity.other.attribute-name"],
       settings: {
-        foreground: palette.anakiwa,
+        foreground: `${palette.ecruWhite}cc`,
       },
     },
     {
@@ -786,13 +786,17 @@ export const cozyDark = {
     {
       scope: [
         "punctuation.terminator.statement",
-        "keyword.operator.assignment",
-        "keyword.operator.comparison",
         "punctuation.separator.key-value",
         "keyword.operator.type.annotation",
       ],
       settings: {
-        foreground: palette.bermudaGray,
+        foreground: `${palette.bermudaGray}`,
+      },
+    },
+    {
+      scope: ["keyword.operator.assignment", "keyword.operator.comparison"],
+      settings: {
+        foreground: palette.havelockBlue,
       },
     },
     {
@@ -852,13 +856,7 @@ export const cozyDark = {
     {
       scope: "storage",
       settings: {
-        foreground: palette.havelockBlue,
-      },
-    },
-    {
-      scope: "storage.type",
-      settings: {
-        foreground: palette.havelockBlue,
+        foreground: `${palette.havelockBlue}e0`,
       },
     },
     {
@@ -904,7 +902,7 @@ export const cozyDark = {
     {
       scope: ["meta.template.expression"],
       settings: {
-        foreground: palette.alto,
+        foreground: palette.ecruWhite,
       },
     },
     {
@@ -935,7 +933,7 @@ export const cozyDark = {
     {
       scope: "keyword.operator",
       settings: {
-        foreground: palette.alto,
+        foreground: palette.ecruWhite,
       },
     },
     {
@@ -989,7 +987,7 @@ export const cozyDark = {
         "storage.modifier.package.java",
       ],
       settings: {
-        foreground: palette.alto,
+        foreground: palette.ecruWhite,
       },
     },
     {
@@ -1088,21 +1086,25 @@ export const cozyDark = {
       },
     },
     {
-      scope: ["variable.other.constant", "variable.other.enummember"],
+      scope: ["meta.object-literal.key"],
       settings: {
-        foreground: palette.malibu,
+        foreground: `${palette.ecruWhite}cc`,
       },
     },
     {
-      scope: ["meta.object-literal.key"],
+      scope: [
+        "variable.other.object",
+        "variable.other.object.property",
+        "variable.other.property",
+      ],
       settings: {
         foreground: palette.anakiwa,
       },
     },
     {
-      scope: [,],
+      scope: ["variable.other.constant", "variable.other.enummember"],
       settings: {
-        foreground: `${palette.anakiwa}c0`,
+        foreground: palette.malibu,
       },
     },
     {
@@ -1149,6 +1151,7 @@ export const cozyDark = {
         "keyword.control.import",
         "keyword.control.export",
         "keyword.control.from",
+        "keyword.control.default",
       ],
       settings: {
         foreground: `${palette.viola}b0`,
