@@ -1,4 +1,4 @@
-import { palette } from "./palette.js"
+import palette from "./palette.json" assert { type: "json" }
 
 export const cozyDark = {
   $schema: "vscode://schemas/color-theme",
@@ -1146,6 +1146,7 @@ export const cozyDark = {
         "keyword.control.export",
         "keyword.control.from",
         "keyword.control.default",
+        "keyword.control.assert",
       ],
       settings: {
         foreground: `${palette.viola}b0`,
