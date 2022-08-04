@@ -705,12 +705,6 @@ export const cozyDark = {
       },
     },
     {
-      scope: ["meta.object-literal.key", "entity.other.attribute-name"],
-      settings: {
-        foreground: `${palette.ecruWhite}cc`,
-      },
-    },
-    {
       scope: [
         "entity.other.attribute-name.class.css",
         "entity.other.attribute-name.class.mixin.css",
@@ -1088,7 +1082,7 @@ export const cozyDark = {
     {
       scope: ["meta.object-literal.key"],
       settings: {
-        foreground: `${palette.ecruWhite}cc`,
+        foreground: `${palette.deepBlush}cc`,
       },
     },
     {
