@@ -1,4 +1,4 @@
-import { cozyDark } from "./cozyDark.js"
+import { cozyDark } from "./cozy-dark/cozy-dark.js"
 import fs from "fs/promises"
 
 fs.mkdir("./themes", { recursive: true })
