@@ -269,6 +269,7 @@ export const cozyDark = {
       scope: "comment",
       settings: {
         foreground: syntax.fernGreen,
+        fontStyle: "italic",
       },
     },
     {
