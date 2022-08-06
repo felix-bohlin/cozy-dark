@@ -830,4 +830,8 @@ export const cozyDark = {
       },
     },
   ],
+  semanticHighlighting: true,
+  semanticTokenColors: {
+    "entity.name.tag:vue": "#ff0011",
+  },
 }
