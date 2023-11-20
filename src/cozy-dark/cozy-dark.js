@@ -103,6 +103,7 @@ export const cozyDark = {
     "input.background": editor.limedSpruce,
     "input.border": editor.limedSpruce,
     "input.foreground": common.gray[100],
+    "input.selectionBackground": common.primary.main,
     "input.placeholderForeground": common.gray[100],
     "inputOption.activeBorder": editor.dodgerBlue2,
     "inputOption.activeBackground": common.primary.main,
