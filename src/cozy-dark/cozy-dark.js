@@ -106,7 +106,6 @@ export const cozyDark = {
     "input.selectionBackground": common.primary.main,
     "input.placeholderForeground": common.gray[100],
     "inputOption.activeBorder": editor.dodgerBlue2,
-    "inputOption.activeBackground": common.primary.main,
     "inputValidation.errorBackground": `${common.danger}99`,
     "inputValidation.errorBorder": common.danger,
     "inputValidation.errorForeground": common.white,
