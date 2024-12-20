@@ -226,8 +226,8 @@ export const cozyDark = {
     "terminalCursor.background": terminal.cursor.background,
     "terminalCursor.foreground": terminal.cursor.foreground,
 
-    "textBlockQuote.background": common.gray[100],
-    "textBlockQuote.border": common.gray[100],
+    "textBlockQuote.background": common.gray[200],
+    "textBlockQuote.border": common.primary.main,
     "textCodeBlock.background": `${common.gray[100]}33`,
     "textLink.activeForeground": common.primary.light,
     "textLink.foreground": common.gray[300],
@@ -239,7 +239,6 @@ export const cozyDark = {
     "titleBar.inactiveForeground": `${common.white}33`,
     "walkThrough.embeddedEditorBackground": common.gray[900],
     "widget.shadow": `${common.black}26`,
-
   },
   tokenColors: [
     {

@@ -43,8 +43,8 @@
     "publish:major": "vsce publish major"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19",
-    "prettier": "^2.7.1",
-    "vsce": "^2.10.0"
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1",
+    "vsce": "^2.15.0"
   }
 }
