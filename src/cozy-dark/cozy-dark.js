@@ -19,7 +19,7 @@ export const cozyDark = {
     "breadcrumbPicker.background": editor.outerSpace,
     "button.background": common.gray[200],
     "button.foreground": common.gray[100],
-    "button.hoverBackground": common.primary.main,
+    "button.hoverBackground": common.gray[250],
     "commandCenter.border": common.gray[700],
     contrastBorder: `${common.white}00`,
     "debugExceptionWidget.background": common.gray[900],
