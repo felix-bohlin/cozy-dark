@@ -6,7 +6,6 @@
   "publisher": "FelixBohlin",
   "version": "2.4.0",
   "icon": "icon.png",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/felix-bohlin/cozy-dark.git"
@@ -35,16 +34,13 @@
     ]
   },
   "scripts": {
-    "dev": "nodemon --watch src src/index.js",
-    "build": "node src/index.js",
-    "package": "npm run build && vsce package",
+    "package": "vsce package",
     "publish:patch": "vsce publish patch",
     "publish": "vsce publish minor",
     "publish:major": "vsce publish major"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.7.1",
-    "nodemon": "^3.0.2",
     "prettier": "^3.1.1"
   }
 }
