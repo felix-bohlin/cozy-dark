@@ -13,9 +13,6 @@
   "engines": {
     "vscode": "^1.69.0"
   },
-  "enabledApiProposals": [
-    "css"
-  ],
   "keywords": [
     "Dark+",
     "cozy",
@@ -33,11 +30,6 @@
         "label": "Cozy Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/cozy-dark.json"
-      }
-    ],
-    "css": [
-      {
-        "path": "./themes/styles.css"
       }
     ]
   },
